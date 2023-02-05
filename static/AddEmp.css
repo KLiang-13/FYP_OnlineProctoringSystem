@@ -1,0 +1,56 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4;
+    background: #99CCFF;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+}
+
+.button:active, .button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h1{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+h3 a:active{
+    color: red;
+}
+
+.container{
+    color: black; 
+    size: 4; 
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+}
+.back a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.back a:active{
+    color: red;
+}
