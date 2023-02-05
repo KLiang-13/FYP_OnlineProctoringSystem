@@ -1,7 +1,7 @@
-from flask import Flask,render_template,Response
+from flask import Flask, render_template, Response
 import cv2
 
-app=Flask(__name__)
+app=Flask(__name__, template_folder='templates')
 camera=cv2.VideoCapture(0)
 
 def generate_frames():
@@ -28,4 +28,4 @@ def video():
     return Response(generate_frames(),mimetype='multipart/x-mixed-replace; boundary=frame')
 
 if __name__=="__main__":
-    app.run(host='0.0.0.0', port=80, debug=True)
+    app.run(debug=True)
